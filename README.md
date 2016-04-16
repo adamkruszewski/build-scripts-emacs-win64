@@ -16,6 +16,10 @@ How to use
 
 You can customize the directory where Emacs is installed in emacs-build-settings.sh file.
 
+Pre-built binaries
+--------------
+You can access pre-built binaries from [Releases page](https://github.com/adamkruszewski/build-scripts-emacs-win64/releases). I'll try to upload new binary builds on a monthly basis.
+
 License
 --------------
 This file is part of GNU Emacs.
