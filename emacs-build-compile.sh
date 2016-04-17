@@ -11,6 +11,6 @@ git config core.autocrlf false
 git reset --hard
 git pull
 ./autogen.sh
-PKG_CONFIG_PATH=/mingw64/lib/pkgconfig \
+CFLAGS=-O2 PKG_CONFIG_PATH=/mingw64/lib/pkgconfig \
                ./configure --prefix=$PREFIX --without-imagemagick
 make -j4
